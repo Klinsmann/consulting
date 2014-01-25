@@ -1,0 +1,142 @@
+/* ---------------------------------------------------------------------------------
+tipografia.css: Este archivo contiene la tipografia de las etiquetas XHTML y estilos adicionales.
+------------------------------------------------------------------------------------*/
+
+
+
+/************************************************************************************
+RESETEO DE ETIQUETAS PARA UNIFORMIZAR LA VISUALIZACIÓN EN TODOS LOS NAVEGADORES
+*************************************************************************************/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+:focus{outline:0}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+
+body{
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;
+color:#4A4A4A;
+line-height: 18px;
+}
+
+/************************************************************************************
+ESTILOS GENERALES PARA LAS ETIQUETAS
+*************************************************************************************/
+
+/*Enlaces Normales*/	 
+a:link, a:visited{
+	color:#FF6600;
+	text-decoration: underline;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+a img, iframe{
+border:none;
+}
+
+img{ 
+margin:0;
+padding:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+line-height:1.4em;
+}
+h1{ font-size:30px;}
+h2{ font-size:24px;}
+h3{ font-size:18px;}
+h4{ font-size:16px;}
+h5{ font-size:14px;}
+h6{ font-size:12px;}
+
+p, pre, blockquote, ul, ol, h1, h2, h3, h4, h5, h6{ 
+margin:0 0 1em;
+}
+
+/*Lista desordenada*/
+.item-page ul, .item-page ol{
+list-style:none;
+margin: 15px 0;
+padding: 0;
+}
+
+.item-page ul li {
+    background: url("../images/vineta.gif") no-repeat 20px 7px;
+    line-height: 160%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.item-page ol li {
+    line-height: 180%;
+    margin-left: 30px;
+}
+
+table{
+border-collapse:separate;
+border-spacing:0;
+}
+
+caption,th,td{
+text-align:left;
+font-weight:normal;
+}
+
+hr{
+height:1px;
+border-top:1px solid #CCCCCC;
+border-right:0;
+border-left:0;
+border-bottom:0;
+}
+fieldset{
+border:1px solid #CCCCCC;
+margin-top:15px;
+padding:15px;
+}
+
+fieldset.input{
+padding:0;
+background:none;
+}
+
+legend{
+margin:0;
+padding:0;
+font-weight:bold;
+color:#333333;
+}
+th,td,div{
+font-size:100%;
+}
+form label{ cursor:pointer;}
+
+input, textarea, select, .inputbox{
+font-size:100%;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.inputbox{
+border:1px solid #b8b8b8;
+background:#ffffff;
+padding:4px;
+color:#000;
+font-size:11px;}
+.inputbox:hover{
+background:#E6E6E6;
+}
+.button{
+border:1px solid #dddddd;
+background:#e3e3e3;
+color:#333333;
+padding:2px 4px;
+}

@@ -1,0 +1,18 @@
+ /*Seccion Servicios pagina inicial*/
+#servicios{  float:left; clear:both; margin:8px 0 0 30px; width:876px;}
+#servicios a{ display:block; width:280px; height:169px; float:left;text-decoration:none; overflow:hidden;}
+#servicios a:hover{text-decoration:underline; color:#000;}
+.servicios1{ background:url(../images/servicio_seguridad_empresa.jpg); margin-right:18px;}
+.servicios2{ background:url(../images/servicio_seguridad_tiendas.jpg); margin-right:18px;}
+.servicios3{ background:url(../images/servicio_seguridad_protecci.jpg);}
+ #servicios p{ margin:123px 2px 0; color:#000; font-size:11px; line-height:15px; text-decoration:none; text-align:center;}
+
+
+ #noticias{  float:left; width:879px; height:254px; clear:both; margin:2px 0 0 30px; background:url(../images/fondo_noticias.jpg); color:#666666;}
+#noticias .moduletable{  float:left; overflow:hidden;  }
+#noticias .moduletable p{ margin:2px 0 5px 0}
+#noticias .modnoticias{  width:275px; margin:5px 0 0 10px;}
+#noticias .modclientes{  width:275px; margin:5px 0 0 19px;}
+#noticias .modsedes   {  width:275px; margin:5px 0 0 16px; }
+#noticias .modsedes embed{ display:block; margin:0 auto;}
+
